@@ -15,12 +15,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          <ProjectItem
+          {/* <ProjectItem
             title='Property Finder'
             // backgroundImg={propertyImg}
             projectUrl='/property'
             tech='React JS'
-          />
+          /> */}
           <ProjectItem
             title='House Search'
             backgroundImg={HouseImg}
