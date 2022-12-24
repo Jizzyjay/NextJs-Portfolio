@@ -1,7 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-// import Link from 'next/link';
-// import React, { useState } from 'react';
 import { AiOutlineMail } from "react-icons/ai";
 import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
@@ -31,8 +29,8 @@ const Contact = () => {
                 <p> Front-End Developer</p>
                 <p className="py-4">
                   {" "}
-                  I'm available for freelance or full-time positions. Contact me
-                  and let's talk.
+                  I&apos;m available for freelance or full-time positions. Contact me
+                  and let&apos;s talk.
                 </p>
               </div>
               <div>

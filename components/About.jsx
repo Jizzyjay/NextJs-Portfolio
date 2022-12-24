@@ -14,7 +14,7 @@ const About = () => {
           </p>
           <h2 className='py-4'>Who I Am</h2>
           <p className='py-2 text-gray-600'>
-            I specialize in building mobile responsive front-end UI applications that connect with API's. My passion lies in learning new technologies and exploring the different possibilities for any given task. I am highly proficient in front-end development, utilizing HTML, CSS, Javascript, and React, and I am confident in my ability to quickly learn any new tech stack as needed. I understand that the mark of a great developer is not tied to one particular language, but to the ability to choose the best tool for the job and apply it accordingly.
+            I specialize in building mobile responsive front-end UI applications that connect with API&apos;s. My passion lies in learning new technologies and exploring the different possibilities for any given task. I am highly proficient in front-end development, utilizing HTML, CSS, Javascript, and React, and I am confident in my ability to quickly learn any new tech stack as needed. I understand that the mark of a great developer is not tied to one particular language, but to the ability to choose the best tool for the job and apply it accordingly.
           </p>
           {/* <p className='py-2 text-gray-600'>
             I started web developement in 2013 managing multiple e-commerce
