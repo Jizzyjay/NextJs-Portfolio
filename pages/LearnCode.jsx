@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import propertyImg from "../public/assets/image/projects/LearnCode.png";
+import propertyImg from "../public/assets/image/projects/learn.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
