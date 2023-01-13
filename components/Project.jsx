@@ -3,6 +3,7 @@ import HouseImg from '../public/assets/image/projects/real.png';
 import DashboardImg from '../public/assets/image/projects/dash.jpg';
 import LearnCodeImg from '../public/assets/image/projects/learn.png'
 import FudoImg from '../public/assets/image/projects/fudo.png'
+import altImg from "../public/assets/image/projects/alt.png";
 import RoboImg from '../public/assets/projects/robo.jpg'
 import ProjectItem from './ProjectItem';
 
@@ -43,7 +44,14 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Netflix App'
+            title='AltSchool Exam(Counter App)'
+            backgroundImg={altImg}
+            projectUrl='/Alt'
+            tech='React'
+
+          />
+          <ProjectItem
+            title='Robo App'
             backgroundImg={RoboImg}
             projectUrl='/Robo'
             tech='React JS'

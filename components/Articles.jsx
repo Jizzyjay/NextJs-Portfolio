@@ -1,5 +1,6 @@
 import React from 'react';
 import codeImg from '../public/assets/projects/code.jpg';
+import reactImg from '../public/assets/projects/react-logo.svg';
 import ArticleItem from './ArticleItem';
 
 const Projects = () => {
@@ -13,9 +14,14 @@ const Projects = () => {
         <div className='grid md:grid-cols-2 gap-8'>
           <ArticleItem
             title='React and ReactDom'
-            backgroundImg={codeImg}
+            backgroundImg={reactImg}
             articleUrl='https://dev.to/jizzyjay/react-and-reactdom-2a4h'
             tech='React JS'
+          />
+          <ArticleItem
+            title='Implementing Counter App'
+            backgroundImg={reactImg}
+            articleUrl='https://dev.to/jizzyjay/implementing-counter-app-4k8p'
           />
           <ArticleItem
             title='Lessons learnt so far in my programming Journey'
