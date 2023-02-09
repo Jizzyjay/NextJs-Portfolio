@@ -31,14 +31,14 @@ const Dashboard = () => {
             House Search, search price and locations of different apartment.
           </p>
           <a
-            href="https://github.com/Jizzyjay/Fudo"
+            href="https://github.com/Jizzyjay/Dashboard"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://sunny-chebakia-420a7b.netlify.app/"
+            href="https://kaleidoscopic-maamoul-de0768.netlify.app/"
             target="_blank"
             rel="noreferrer"
           >

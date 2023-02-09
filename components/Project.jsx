@@ -6,6 +6,7 @@ import FudoImg from '../public/assets/image/projects/fudo.png'
 import altImg from "../public/assets/image/projects/alt.png";
 import RoboImg from '../public/assets/projects/robo.jpg'
 import ProjectItem from './ProjectItem';
+import chatImg from '../public/assets/image/projects/jay.jpg'
 
 const Projects = () => {
   return (
@@ -16,12 +17,12 @@ const Projects = () => {
         </p>
         <h2 className='py-4'>What I&apos;ve Built</h2>
         <div className='grid md:grid-cols-2 gap-8'>
-          {/* <ProjectItem
-            title='Property Finder'
-            // backgroundImg={propertyImg}
-            projectUrl='/property'
+          <ProjectItem
+            title='JayChat'
+            backgroundImg={chatImg}
+            projectUrl='/Chat'
             tech='React JS'
-          /> */}
+          />
           <ProjectItem
             title='House Search'
             backgroundImg={HouseImg}
@@ -30,7 +31,7 @@ const Projects = () => {
 
           />
           <ProjectItem
-            title='Netflix App'
+            title='Fudo'
             backgroundImg={FudoImg}
             projectUrl='/Fudo'
             tech='React JS'

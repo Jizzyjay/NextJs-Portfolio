@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import RoboImg from '../public/assets/projects/robo.jpg'
+import chatImg from '../public/assets/image/projects/jay.jpg'
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Robo = () => {
+const Dashboard = () => {
 
   return (
     <div className="w-full">
@@ -14,12 +14,12 @@ const Robo = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={RoboImg}
+          src={chatImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">House Search</h2>
-          <h3>React JS / API </h3>
+          <h2 className="py-2">JayChat</h2>
+          <h3>React / Node / JS</h3>
         </div>
       </div>
 
@@ -28,17 +28,17 @@ const Robo = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Roboapp is a robot app, where robots are generated with an API.
+            JayChat is a fullstack application that uses chatGPT API to generate chat responses.
           </p>
           <a
-            href="https://github.com/Jizzyjay/roboapp"
+            href="https://github.com/Jizzyjay/client-JayChat"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://robopp.netlify.app/"
+            href="https://client-jay-chat.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,13 +50,16 @@ const Robo = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> Html
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> API
+                <RiRadioButtonFill className="pr-1" /> Css
+              </p>
+              <p className="text-gray-600 py-2 flex items-center">
+                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
             </div>
           </div>
@@ -69,4 +72,4 @@ const Robo = () => {
   );
 };
 
-export default Robo;
+export default Dashboard;
