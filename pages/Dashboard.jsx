@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import RoboImg from "../public/assets/projects/roboapp.png";
+import DashboardImg from "../public/assets/image/projects/dashboard.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -14,7 +14,7 @@ const Dashboard = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={RoboImg}
+          src={DashboardImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
@@ -28,7 +28,7 @@ const Dashboard = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            House Search, search price and locations of different apartment.
+            .
           </p>
           <a
             href="https://github.com/Jizzyjay/Dashboard"

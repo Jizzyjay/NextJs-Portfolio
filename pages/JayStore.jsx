@@ -1,10 +1,11 @@
 import Image from "next/image";
 import React from "react";
-import chatImg from "../public/assets/image/projects/jay.jpg";
+import jayImg from "../public/assets/image/projects/jayStore.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Chat = () => {
+const JayStore = () => {
+
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -13,12 +14,12 @@ const Chat = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={chatImg}
+          src={jayImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">JayChat</h2>
-          <h3>React / Node / JS</h3>
+          <h2 className="py-2">House Search</h2>
+          <h3>React JS / API </h3>
         </div>
       </div>
 
@@ -27,18 +28,17 @@ const Chat = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            JayChat is a fullstack application that uses chatGPT API to generate
-            chat responses.
+            JayStore is a cosmetic store landing page.
           </p>
           <a
-            href="https://github.com/Jizzyjay/client-JayChat"
+            href="https://github.com/Jizzyjay/JayStore"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://client-jay-chat.vercel.app/"
+            href="https://jay-store.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -50,16 +50,13 @@ const Chat = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Html
+                <RiRadioButtonFill className="pr-1" /> React
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Javascript
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Css
-              </p>
-              <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Tailwind
               </p>
             </div>
           </div>
@@ -72,4 +69,4 @@ const Chat = () => {
   );
 };
 
-export default Chat;
+export default JayStore;
