@@ -1,10 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import fudoImg from "../public/assets/image/projects/fudo.png";
+import eventImg from "../public/assets/image/projects/Event.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
-const Fudo = () => {
+const Event = () => {
 
   return (
     <div className="w-full">
@@ -14,11 +14,11 @@ const Fudo = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={fudoImg}
+          src={eventImg}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Fudo</h2>
+          <h2 className="py-2">Event App</h2>
           <h3>React JS / Tailwind / Firebase</h3>
         </div>
       </div>
@@ -29,20 +29,17 @@ const Fudo = () => {
           <h2>Overview</h2>
           <p>
             This app was built using next JS and is hosted on Vercel. Users
-            are able to search for certain food and it calories. User
-            authentication is available so you can signup and signin to your
-            account with an email address in order to buy your favorite
-            food.
+            are able to search for upcoming events in three different cities.
           </p>
           <a
-            href="https://github.com/Jizzyjay/Fudo"
+            href="https://github.com/Jizzyjay/event-app"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://sunny-chebakia-420a7b.netlify.app/"
+            href="https://event-app-umber.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -54,17 +51,17 @@ const Fudo = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React
+                <RiRadioButtonFill className="pr-1" /> Next Js
               </p>
               <p className="text-gray-600 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> Javascript
+                <RiRadioButtonFill className="pr-1" /> Sass
               </p>
-              <p className="text-gray-600 py-2 flex items-center">
+              {/* <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Firebase
               </p>
               <p className="text-gray-600 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> Tailwind
-              </p>
+              </p> */}
             </div>
           </div>
         </div>
@@ -76,4 +73,4 @@ const Fudo = () => {
   );
 };
 
-export default Fudo;
+export default Event;

@@ -6,6 +6,7 @@ import FudoImg from "../public/assets/image/projects/fudo.png";
 import altImg from "../public/assets/image/projects/alt.png";
 import RoboImg from "../public/assets/projects/robo.jpg";
 import ProjectItem from "./ProjectItem";
+import eventImg from "../public/assets/image/projects/Event.jpg";
 import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
 
@@ -23,6 +24,12 @@ const Projects = () => {
             backgroundImg={chatImg}
             projectUrl="/Chat"
             tech="React JS"
+          />
+          <ProjectItem
+            title="JayChat"
+            backgroundImg={eventImg}
+            projectUrl="/Event"
+            tech="Next JS"
           />
           <ProjectItem
             title="JayStore"
