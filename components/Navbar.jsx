@@ -25,7 +25,8 @@ const Navbar = () => {
       router.asPath === '/Alt' ||
       router.asPath === '/JayStore' ||
       router.asPath === '/Event' ||
-      router.asPath === '/Chat'
+      router.asPath === '/Chat' ||
+      router.asPath === '/OpenImage'
     ) {
       setNavBg('transparent');
       setLinkColor('#ecf0f3');

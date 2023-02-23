@@ -9,6 +9,7 @@ import ProjectItem from "./ProjectItem";
 import eventImg from "../public/assets/image/projects/Event.jpg";
 import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
+import openImg from "../public/assets/image/projects/openImg.jpg";
 
 const Projects = () => {
   return (
@@ -26,10 +27,16 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="JayChat"
+            title="JayEvent"
             backgroundImg={eventImg}
             projectUrl="/Event"
             tech="Next JS"
+          />
+          <ProjectItem
+            title="OpenImage"
+            backgroundImg={openImg}
+            projectUrl="/OpenImage"
+            tech="React JS"
           />
           <ProjectItem
             title="JayStore"
