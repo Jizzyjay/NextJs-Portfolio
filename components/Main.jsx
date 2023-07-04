@@ -5,7 +5,6 @@ import { BsFillPersonLinesFill } from "react-icons/bs";
 import { FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 const Main = () => {
-    
   return (
     <div id="home" className="w-full h-screen text-center">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 flex justify-center items-center">
@@ -15,11 +14,8 @@ const Main = () => {
           </h1>
           <h1 className="py-2 text-gray-700">A Front-End Web Developer.</h1>
           <p className="py-4 text-gray-600 sm:max-w-[70%] m-auto">
-            I am an innovative and highly motivated front-end developer. I seek
-            to use my proven skills in software development, technical writing,
-            and leadership skills to meet business needs. I have a passion for
-            solving problems with code. I push my boundaries and always look for
-            ways to improve my skills.
+            I am an innovative and highly motivated front-end developer with proven skills in software development, technical writing, and leadership. 
+            I am passionate about problem-solving with code and constantly strive to improve my skills.
           </p>
           <div className="flex items-center justify-between max-w-[330px] m-auto py-4">
             <a
