@@ -10,6 +10,7 @@ import eventImg from "../public/assets/image/projects/Event.jpg";
 import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
 import openImg from "../public/assets/image/projects/openImg.jpg";
+import amazon from "../public/assets/image/projects/amazon.png";
 
 const Projects = () => {
   return (
@@ -20,6 +21,12 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
+          <ProjectItem
+            title="Amazon-Clone"
+            backgroundImg={amazon}
+            projectUrl="/Amazon"
+            tech="NextJs"
+          />
           <ProjectItem
             title="JayChat"
             backgroundImg={chatImg}
