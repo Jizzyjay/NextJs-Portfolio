@@ -27,24 +27,24 @@ const Projects = () => {
             projectUrl="/Amazon"
             tech="NextJs"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="JayChat"
             backgroundImg={chatImg}
             projectUrl="/Chat"
             tech="React JS"
-          />
+          /> */}
           <ProjectItem
             title="JayEvent"
             backgroundImg={eventImg}
             projectUrl="/Event"
             tech="Next JS"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="OpenImage"
             backgroundImg={openImg}
             projectUrl="/OpenImage"
             tech="React JS"
-          />
+          /> */}
           <ProjectItem
             title="JayStore"
             backgroundImg={jayImg}
@@ -63,12 +63,12 @@ const Projects = () => {
             projectUrl="/Fudo"
             tech="React JS"
           />
-          <ProjectItem
+          {/* <ProjectItem
             title="LearnCode"
             backgroundImg={LearnCodeImg}
             projectUrl="/LearnCode"
             tech="Next JS"
-          />
+          /> */}
           <ProjectItem
             title="AltSchool Exam(Counter App)"
             backgroundImg={altImg}
