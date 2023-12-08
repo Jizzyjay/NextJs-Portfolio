@@ -1,17 +1,17 @@
 import React from "react";
 import HouseImg from "../public/assets/image/projects/real.png";
-import DashboardImg from "../public/assets/image/projects/dash.jpg";
-import LearnCodeImg from "../public/assets/image/projects/learn.png";
+// import DashboardImg from "../public/assets/image/projects/dash.jpg";
+// import LearnCodeImg from "../public/assets/image/projects/learn.png";
 import FudoImg from "../public/assets/image/projects/fudo.png";
-import altImg from "../public/assets/image/projects/alt.png";
+// import altImg from "../public/assets/image/projects/alt.png";
 import RoboImg from "../public/assets/projects/robo.jpg";
 import ProjectItem from "./ProjectItem";
 import eventImg from "../public/assets/image/projects/Event.jpg";
-import chatImg from "../public/assets/image/projects/jay.jpg";
+// import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
-import openImg from "../public/assets/image/projects/openImg.jpg";
+// import openImg from "../public/assets/image/projects/openImg.jpg";
 import amazon from "../public/assets/image/projects/amazon.png";
-import Dash from "../public/assets/image/projects/Dash.jpg";
+import Dash from "../public/assets/image/projects/dash.jpg";
 
 const Projects = () => {
   return (

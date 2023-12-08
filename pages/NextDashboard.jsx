@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import DashboardImg from "../public/assets/image/projects/Dash.jpg";
+import DashboardImg from "../public/assets/image/projects/dash.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
