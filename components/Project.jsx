@@ -11,6 +11,7 @@ import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
 import openImg from "../public/assets/image/projects/openImg.jpg";
 import amazon from "../public/assets/image/projects/amazon.png";
+import Dash from "../public/assets/image/projects/Dash.jpg";
 
 const Projects = () => {
   return (
@@ -69,12 +70,12 @@ const Projects = () => {
             projectUrl="/LearnCode"
             tech="Next JS"
           /> */}
-          <ProjectItem
+          {/* <ProjectItem
             title="AltSchool Exam(Counter App)"
             backgroundImg={altImg}
             projectUrl="/Alt"
             tech="React"
-          />
+          /> */}
           <ProjectItem
             title="Robo App"
             backgroundImg={RoboImg}
@@ -83,10 +84,16 @@ const Projects = () => {
           />
           <ProjectItem
             title="Dashboard"
-            backgroundImg={DashboardImg}
-            projectUrl="/Dashboard"
+            backgroundImg={Dash}
+            projectUrl="/NextDashboard"
             tech="Next JS"
           />
+          {/* <ProjectItem
+            title="Dashboard"
+            backgroundImg={DashboardImg}
+            projectUrl="/Dashboard"
+            tech="Html"
+          /> */}
         </div>
       </div>
     </div>

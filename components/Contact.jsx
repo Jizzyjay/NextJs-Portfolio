@@ -55,14 +55,14 @@ const Contact = () => {
                         <AiOutlineMail />
                       </div>
                     </Link>
-                    <Link
+                    {/* <Link
                       target="_blank"
                       href="https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing"
                     >
                       <div className="rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                         <BsFillPersonLinesFill />
                       </div>
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>
