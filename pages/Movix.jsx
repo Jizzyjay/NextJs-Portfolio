@@ -1,11 +1,10 @@
 import Image from "next/image";
 import React from "react";
-import MovixImg from '../public/assets/image/projects/movix.jpg'
+import MovixImg from "../public/assets/image/projects/movix.jpg";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
 const Movix = () => {
-
   return (
     <div className="w-full">
       <div className="w-screen h-[50vh] relative">
@@ -28,7 +27,11 @@ const Movix = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Movixapp is a Movixt app, where Movixts are generated with an API.
+            Movix is a personalized movie and TV show recommendation web
+            application that provides users with what to watch with features
+            like bookmark and recommended movies. The platform aims to help
+            users discover their next favorite watch and make informed choices
+            based on their preferences and interests.
           </p>
           <a
             href="https://github.com/Jizzyjay/movix"
