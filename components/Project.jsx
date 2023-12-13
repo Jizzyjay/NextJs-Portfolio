@@ -1,17 +1,13 @@
 import React from "react";
 import HouseImg from "../public/assets/image/projects/real.png";
-// import DashboardImg from "../public/assets/image/projects/dash.jpg";
-// import LearnCodeImg from "../public/assets/image/projects/learn.png";
 import FudoImg from "../public/assets/image/projects/fudo.png";
-// import altImg from "../public/assets/image/projects/alt.png";
 import RoboImg from "../public/assets/projects/robo.jpg";
 import ProjectItem from "./ProjectItem";
 import eventImg from "../public/assets/image/projects/Event.jpg";
-// import chatImg from "../public/assets/image/projects/jay.jpg";
 import jayImg from "../public/assets/image/projects/jayStore.jpg";
-// import openImg from "../public/assets/image/projects/openImg.jpg";
 import amazon from "../public/assets/image/projects/amazon.png";
 import Dash from "../public/assets/image/projects/dash.jpg";
+import Movix from "../public/assets/image/projects/movix.jpg";
 
 const Projects = () => {
   return (
@@ -28,24 +24,18 @@ const Projects = () => {
             projectUrl="/Amazon"
             tech="NextJs"
           />
-          {/* <ProjectItem
-            title="JayChat"
-            backgroundImg={chatImg}
-            projectUrl="/Chat"
-            tech="React JS"
-          /> */}
+          <ProjectItem
+            title="Movix"
+            backgroundImg={Movix}
+            projectUrl="/Movix"
+            tech="Next JS"
+          />
           <ProjectItem
             title="JayEvent"
             backgroundImg={eventImg}
             projectUrl="/Event"
             tech="Next JS"
           />
-          {/* <ProjectItem
-            title="OpenImage"
-            backgroundImg={openImg}
-            projectUrl="/OpenImage"
-            tech="React JS"
-          /> */}
           <ProjectItem
             title="JayStore"
             backgroundImg={jayImg}
@@ -64,18 +54,6 @@ const Projects = () => {
             projectUrl="/Fudo"
             tech="React JS"
           />
-          {/* <ProjectItem
-            title="LearnCode"
-            backgroundImg={LearnCodeImg}
-            projectUrl="/LearnCode"
-            tech="Next JS"
-          /> */}
-          {/* <ProjectItem
-            title="AltSchool Exam(Counter App)"
-            backgroundImg={altImg}
-            projectUrl="/Alt"
-            tech="React"
-          /> */}
           <ProjectItem
             title="Robo App"
             backgroundImg={RoboImg}
@@ -88,12 +66,6 @@ const Projects = () => {
             projectUrl="/NextDashboard"
             tech="Next JS"
           />
-          {/* <ProjectItem
-            title="Dashboard"
-            backgroundImg={DashboardImg}
-            projectUrl="/Dashboard"
-            tech="Html"
-          /> */}
         </div>
       </div>
     </div>
