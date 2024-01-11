@@ -89,7 +89,8 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <Link
                 target="_blank"
-                href="https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing"
+                // href="https://docs.google.com/document/d/1l0HEKVx2k-Z7q9U_dyviOEmFLJKS5_TdNamJpEkQeC4/edit?usp=sharing"
+                href="https://www.canva.com/design/DAFtjn7npzw/yLHRrIG0XPvridjFTWa9aw/edit?utm_content=DAFtjn7npzw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
               >
                 Resume
               </Link>

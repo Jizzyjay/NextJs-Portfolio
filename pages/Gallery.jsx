@@ -27,7 +27,7 @@ const Gallery = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            Gallery 
+            Upload your pictures in the gallery.
           </p>
           <a
             href="https://github.com/Jizzyjay/Gallery"
